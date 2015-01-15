@@ -1,0 +1,14 @@
+<h2>Clients List</h2>
+
+<% @clients.each do |client|  %>
+    <p>
+    
+    <%= client.client_name %>
+    <%= client.client_conact_name %>
+    <%= client.client_contact %>
+    <%= client.client_adress %>
+    
+    </p>
+<% end %>
+
+<p><%= link_to 'New Client', new_client_path %></p>

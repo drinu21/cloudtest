@@ -36,5 +36,8 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+# gem 'debugger', group: [:development
 
+gem 'devise', '~> 3.4.1'
+
+gem 'rails_admin', '~> 0.6.6'

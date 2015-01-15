@@ -1,0 +1,23 @@
+<h2>New Client</h2>
+
+<p><%= form_for @client, url: {action: "create"} do |f| %>
+
+        <p>Name:
+        <%= f.text_field :client_name %>
+        </p>
+        <p>Client Address:
+        <%= f.text_field :client_adress%>
+        </p>
+        <p>Contact Person
+        <%= f.text_field :client_conact_name %>
+        </p>
+        <p>Contact Number:
+        <%= f.text_field :client_contact %>
+        </p>
+        
+        <%= f.submit "create" %>
+
+    <% end %>
+
+
+</p>
